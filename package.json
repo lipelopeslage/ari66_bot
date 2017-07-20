@@ -15,7 +15,7 @@
   ],
   "scripts": {
   },
-  "author": "Yago Pérez <yagoperezs@gmail.com>",
+  "author": "Felipe Lopes Lage <felipelopeslage@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=0.12"
