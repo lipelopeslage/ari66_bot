@@ -13,6 +13,7 @@
     "bot"
   ],
   "scripts": {
+    "start": "node index.js"
   },
   "author": "Felipe Lopes Lage <felipelopeslage@gmail.com>",
   "license": "MIT",
