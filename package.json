@@ -1,11 +1,10 @@
 {
   "name": "node-telegram-bot-api",
-  "version": "0.27.1",
+  "version": "0.1",
   "description": "Telegram Bot API",
   "main": "./index.js",
-  "directories": {
-    "example": "examples",
-    "test": "test"
+  "engines": {
+    "node": "5.9.1"
   },
   "keywords": [
     "telegram",
@@ -21,8 +20,8 @@
     "node": ">=0.12"
   },
   "dependencies": {
-  },
-  "devDependencies": {
     "node-telegram-bot-api": "*"
+  },
+  "devDependencies": {    
   }
 }
