@@ -71,7 +71,4 @@ const sendMsg = function(msg, match){
 bot.onText( /(^\/start|.*)/, sendMsg);
 console.log('rodando bot...')
 
-
-http.createServer(function (request, response) {
-    
-}).listen(process.env.port || 3000);
+http.createServer(function(){}).listen(process.env.PORT || 6000)
