@@ -1,3 +1,5 @@
+const http = require('http');
+
 const TelegramBot = require( `node-telegram-bot-api` )
 
 const TOKEN = `393424068:AAG_3sUKdwJ3t-cT7O5CUzkl2tA1TVoYLQw`
@@ -65,6 +67,11 @@ const sendMsg = function(msg, match){
     }
 }
 
-bot.onText( /(^\/start|.*)/, sendMsg);
 
+bot.onText( /(^\/start|.*)/, sendMsg);
 console.log('rodando bot...')
+
+
+http.createServer(function (request, response) {
+    
+}).listen(process.env.port || 3000);
