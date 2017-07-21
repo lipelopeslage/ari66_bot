@@ -61,10 +61,10 @@ const sendMsg = function(msg, match){
     var msgToSend = "VAI TOMAR NO C$ SEU IMITÃO!!";
     if(text.match(/desce ai meu (parceiro|passero)/)){
         bot.sendMessage( msg.chat.id, msgToSend);
-    }else if(text.match(/(ff)/g)){
-        bot.sendMessage( msg.chat.id, "viixiii perai, tenho um vídeo aqui");
-    }else if(text.match(/(ff\?)/g)){
+    }else if(text.match(/ff\?/g)){
         bot.sendMessage( msg.chat.id, "fist fucking, meu fio, caraio cuzão tenho um video aqui perai ja te mando");
+    }else if(text.match(/ff/g)){
+        bot.sendMessage( msg.chat.id, "viixiii perai, tenho um vídeo aqui");
     }else if(!text.match(/\/start/)){
         msgToSend = checkHistory(randomMsg());
         bot.sendMessage( msg.chat.id, msgToSend);
